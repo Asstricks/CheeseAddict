@@ -1,0 +1,7 @@
+add_toggle_function("Cheese Addict (BETA) ", "Chat Filters", function()
+    SYSTEM_WAIT(1)
+chat_hook(player_index, message)
+log_info(message)
+add_chat_callback(hook)
+
+end)
