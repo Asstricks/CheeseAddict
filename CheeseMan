@@ -1,7 +1,11 @@
--- Very cool...
-add_toggle_function("Cheese Addict (BETA) ", "Chat Filters", function()
-chat_hook(player_index, message)
-log_info(message)
-add_chat_callback(hook)
+notify("Worky")
 
-end)
+
+
+-- Very cool...
+-- add_toggle_function("Cheese Addict (BETA) ", "Chat Filters", function()
+-- chat_hook(player_index, message)
+-- log_info(message)
+-- add_chat_callback(hook)
+
+-- end)
